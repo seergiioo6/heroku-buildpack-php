@@ -95,7 +95,7 @@ you retain the appropriate include mechanisms (see default configs for details).
 
 # we need this in configs
 export HEROKU_APP_DIR=$(pwd)
-export DOCUMENT_ROOT="$HEROKU_APP_DIR"
+export DOCUMENT_ROOT="$HEROKU_APP_DIR"."/mautic"
 # set a default port if none is given
 export PORT=${PORT:-$(( $RANDOM+1024 ))}
 
