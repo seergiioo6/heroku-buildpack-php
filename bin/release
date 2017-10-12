@@ -5,5 +5,5 @@ cat <<EOF
 ---
 addons: []
 default_process_types:
-  web: pm2 start keystone.js
+  web: npm start
 EOF
