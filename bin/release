@@ -5,5 +5,5 @@ cat <<EOF
 ---
 addons: []
 default_process_types:
-  web: heroku-php-apache2 && pm2 start keystone.js
+  web: pm2 start keystone.js
 EOF
